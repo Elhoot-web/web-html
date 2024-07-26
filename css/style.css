@@ -1,0 +1,141 @@
+/* h3{
+    color: blue;
+} */
+/* p, h2 {
+    color:red;
+} */
+
+/* p#test{
+    color: blueviolet;
+} */
+
+/* <!-- Descendant selector --> */
+/* div p strong{
+    color:red;
+}  */
+/* <!-- border --> */
+/* h1{
+    border: solid 10px red;
+    width: 160px;
+    height: 50px;
+    padding: 100px 10px 10px 20px;
+    margin: 100px 100px 10px 10px 20px;
+}
+  */
+/* <!-- margin --> */
+
+/* div{
+    height: 200px;
+    background-color: red;
+    width: 30%;
+    margin: 0 auto;
+    
+
+} */
+
+/* النسبه المئويه */
+/* p{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+}
+h2{
+    background-color: blue;
+} */
+
+
+
+
+
+ /* text decoration  */
+/* p{
+    text-decoration: underline red;
+} */
+
+
+/* text-shadow: H-shadow v-shadow Blur color */
+
+/* h1{
+    text-shadow: 5px 5px 1px blue, 1px 1px 2px red ;
+} */
+
+
+
+/* box-shadow: H-shadow v-shadow Blue spread color Inset; */
+
+/* div{
+    background: red;
+    height: 200px;
+    width: 200px;
+    box-shadow: 1px 1px 10px 5px blue ,
+           5px 5px 10px 10px green
+    
+    ;
+} */
+
+
+
+/* div{
+    background: yellow;
+    width: 200  px;
+} */
+/* z_index */
+
+/* div{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+}
+.red{
+    background-color: red;
+    z-index: 1;
+
+}
+.green{
+    background-color: green;
+    top: 20px;
+    left: 20px;
+}
+.blue{
+    background-color: blue;
+    top: 30px;
+    left: 30px;
+} */
+
+/* table */
+/* table{
+    width: 100%;
+    border-spacing: 10px;
+    
+}
+th{
+    background: blue;
+    height: 40px;
+    border: 4px solid black;
+
+
+}
+td{
+    background: rgb(129, 81, 177);
+    height: 40px;
+    text-align: center;
+    text-align: left;
+    vertical-align: bottom;
+    border: 4px solid red;
+
+} */
+
+
+
+div{
+    height: 100px;
+    width: 200px;
+    background-image:url(kk.jpg);
+    background-size: contain;
+    
+
+}
+div:hover{
+    background-image: url(dd.jpg);
+    
+}

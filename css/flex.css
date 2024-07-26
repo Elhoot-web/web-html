@@ -1,0 +1,53 @@
+/* .parent{
+    background: gold;
+    padding: 10px;
+    display: flex ;
+    height: 500px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    /* align-content: center; */
+    /* align-content: flex-end;   x محور
+    align-content: flex-start;  محور x
+
+}
+.parent div{
+    padding: 10px;
+    margin: 10px;
+
+}
+.item1{
+    background: green;
+    flex-grow: 1;
+}
+.item2{
+    background: red;
+    flex-grow: 1;
+
+}
+.item3{
+    background: blue;
+    flex-grow: 1;
+
+}
+.item4{
+    background: violet;
+    flex-grow: 1;
+
+} */ 
+                                        /* flex-grow    التحكم ف توسع الابناء داخل العنصر الاب */
+                                        /* flex-shrink انكماش العنصر */
+
+
+/* greed */
+
+.parent{
+  background: red;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill);
+
+}
+.parent div{
+    background: gold;
+}

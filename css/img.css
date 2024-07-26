@@ -1,0 +1,326 @@
+/* line البراجراف كلو هياخود لون */
+
+/* p::first-line{
+    color: red;
+    background: black;
+    font-size: 30px;
+} */
+
+
+/* letter اول حرف هياخود لون  */
+/* p::first-letter{
+    color: red;
+    background: black;
+    font-size: 30px;
+}
+p::selection{
+    background: red;
+    color: wheat;
+} */
+
+/* p */
+
+/* p{
+height: 50px;
+background: blue;
+position: relative;
+} */
+
+/* p::before{
+    content: '';
+    background: red; */
+    /* 1- height and width*/
+    /* height: 100%;
+    width: 100% ; */
+    /* 2- position */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+
+} */
+
+
+
+/* <!-- attribute selectors --> */
+
+/*
+1- [attribute]
+2- [element attribute]
+3- [attr="value"]
+4- [element [attr="value"]
+*/
+
+
+/* 1- [attribute] */
+/* [placeholder]{
+    background: red;
+} */
+
+
+/* 2- [element attribute] */
+/* input[type]{
+    background: red;
+} */
+
+
+/* 3- [attr="value"] */
+/* [type="text"]{
+    background:rebeccapurple;
+} */
+
+
+
+/*
+translate == move(x,y)
+scale == zoom in or zoom out (x,y)
+matrix(scalex, skewY, skewX, scaleY, translateX, translateY   )
+
+
+*/
+
+
+/* transform */
+/* /* div{
+    height: 80px;
+    width: 80px;
+    background: rebeccapurple; */
+    /* transform: translate(100px,10px);  التحكم ف العنصرين فوق وتحت ويمين وشمال*/
+    /* transform: translatex(100px);  التحكم ف عنصر واحد */
+    /* transform: scaleX(3);  بيتحكم ف العرض */
+    /* transform: scaleY(3); يتحكم ف الطول */
+    /* transform: rotate(60deg) ; دوران للعنصر */
+    /* transform: matrix(1.5, 1.4, 0, 2, 30, 100); تمييل العنصر */
+     
+/* }  */
+
+
+/* transition */
+
+
+/* p{
+    width: 30%;
+    height: 80px;
+    background: black;
+    color: white; */
+    /* transition: 3s ease-in; بتبدء بطيئه وتنتهي سريعه */
+    /* transition: width 4s, height 2s; */
+    /* transition: 3s steps(5); */
+    /* transition: 3s ease 2s; */
+    /* transition-property:width ,height; */
+    /* transition-duration: 3s; مده العنصر */
+    /* transition-delay: 2s; التأخير */
+
+/* } */
+/* p:hover{ */
+    /* width: 100%;
+    height: 400px;  */
+    /* background: red;
+    color: blue; 
+     */
+/* } */
+
+
+/* animation (1) */
+/* 
+body{
+    background: black;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background: red;
+    animation-name: square;
+    animation-duration: 4s;
+    animation-delay: 2s;
+
+} */
+
+/* @keyframes square{ */
+    /* start */
+    /* 0%{
+        background: red;
+        width: 0;
+    } */
+      /* mid center */
+    /* 50%{
+        background:green;
+    } */
+
+      /* end */
+    /* 100%{
+        background:blue;
+        width: 100%; */
+
+
+
+    /* }
+
+} */
+
+
+
+
+
+
+
+/* animation (2) */
+
+
+/* body{
+    background: black;
+} */
+
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background: red; */
+    /* animation-name: square;
+    animation-duration: 4s;
+    animation-delay: 2s; */
+    /* animation-iteration-count: 1;     عدد اللفا  */
+    /* animation-iteration-count: infinite;   هيلف الي مالا نهايه */
+    /* animation-fill-mode: both;   هيبدء بأول لون وهينتهي بالاخر لون  */
+    /* animation: square 4s linear 3s 1 normal both running;    الكود ع سطر واحد */
+
+/* } */
+
+
+
+
+/* @keyframes square{
+    0%{
+        translate: 0 0 ;
+        background: red;
+        rotate: 0;
+    }
+    25%{
+       translate: 0 500px;
+       background: yellow;
+       rotate: 90deg;
+
+
+    }
+    50%{
+        translate: 400px 500px;
+        background: green;
+        rotate: 270deg;
+
+
+    }
+    75%{
+        translate:  400px 0;
+        background:blue;
+        rotate: 360deg;
+
+
+    }
+    100%{
+        translate:  0 0;
+        background:darkmagenta;
+        rotate: 0;
+
+
+        
+    }
+
+} */
+
+
+
+/* div:hover{ */
+    /* animation-play-state: paused;    بالماوس بيوقف معايهanimation لمه بوقف ع  */
+    /* cursor: pointer;   بيتحكم ف شكل الماوس */
+
+/* } */
+
+
+
+/* <!-- inlin block --> */
+
+
+/* p{
+    background: red; */
+    /* display: inline;        inline  الي block  التحويل من  */
+    /* display: inline-block;    العناصر ع نفس السطر  
+    width: 100px;
+    height: 100px;
+    margin:20px ;
+} */
+
+
+/* span{
+    background: blue;
+    display: block;          block  الي inline   التحويل من 
+} */
+
+
+
+/* .first{
+    background: red;
+    visibility: hidden; اخفاء العنصر
+
+}
+
+.second{
+    background: blue;
+} */
+
+
+
+
+/* <!-- flex box --> */
+
+
+.parent{
+    background: gold;
+    padding: 10px;
+    display: flex;
+    height: 500px;
+    /* flex-direction: row-reverse; العناصر بتيجي ع اليمين */
+    /* flex-direction: column-reverse;    عمودي */
+    /* flex-direction: row ;  بيجيب العناصر ع سطر واحد */
+    /* flex-wrap: wrap;      rap للعناصر */
+    /* flex-flow: row wrap;         افقي X */
+    /* flex-flow: column wrap;    Y عمودي */
+    /* justify-content: flex-start;      توسيط العناصر يمين شمال ف النص */
+    /* justify-content: space-between;    مسافات ما بين العناصر */
+    /* justify-content: space-around;   مسافات حوالين العناصر */
+    /* justify-content: space-evenly;   مسافات متساويه مابين العناصر  */
+    flex-direction: column;
+
+
+}
+.parent div{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.item1{
+    background: green;
+    /* align-self: end;       توسيط العنصر فوق وتحت وفي النص */
+    /* flex-grow: 1; */
+    /* flex-shrink: 3;   انكماش للعنصر */
+    /* flex-basis: 200px; */
+    /* flex: 1 0 200px;    اختصار */
+}
+.item2{
+    background: red;
+    /* flex-grow: 1; */
+    
+
+
+}
+.item3{
+    background:blue;
+    /* flex-grow: 1; */
+    /* flex-shrink: 5; */
+
+
+}
+.item4{
+    background: blueviolet;
+    /* flex-grow: 1; */
+
+}
